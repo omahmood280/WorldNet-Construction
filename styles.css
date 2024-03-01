@@ -1,4 +1,6 @@
 body {
+  overflow-x: hidden !important;
+
   }
 .navbar-brand img {
     width: 200px;
