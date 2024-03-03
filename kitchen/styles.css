@@ -6,10 +6,27 @@
     width: 30%;
     margin-top: 150px;
 }
+.slick-prev:before,
+.slick-next:before {
+  color: black !important;
+}
+
+
+.content {
+    margin: 0 auto;
+    width: 80%;
+    height: 80%;
+
+}
 .carousel-control-next,
 .carousel-control-prev {
     filter: invert(100%);
 }
+.slider img{
+    object-fit: contain;
+
+}
+
 
 .line {
     border-bottom: 1px solid #343a40;
@@ -46,6 +63,29 @@
     color: #343a40!important;
     font-size: 20px !important;
 }
+
+@media all and (max-width: 1183px) and (min-width: 768px) {
+
+    .content {
+        width: 80%;
+        height: 50%;
+    
+    }
+
+}
+
+
+
+@media all and (max-width: 768px) {
+
+    .content {
+        width: 85%;
+        height: 24%;
+    
+    }
+
+}
+
 
 @media all and (max-width: 1411px) {
 
